@@ -214,18 +214,6 @@ header{
  transform:translateX(-50%)}18%
  {-webkit-transform:translateX(-56%);
  transform:translateX(-56%)}}
-.back-to-top {
-  position: fixed;
-  right: 2rem;
-  bottom: 2rem;
-  border-radius: 100%;
-  background: #141c38;
-  padding: 0.5rem;
-  border: none;
-  cursor: pointer;
-  opacity: 100%;
-  transition: opacity 0.5s;
-}
   .alert{
 --bs-alert-bg:transparent;
   --bs-alert-padding-x:1rem;
