@@ -310,11 +310,11 @@ header{
     background:var(--gradient);
     -webkit-background-clip: text;
     background-clip: text;
-    font-size: 4rem;
+    font-size: 2rem;
   }
   .drugs .content a,li{
     padding:.5rem 0;
-    font-size: 1.7rem;
+    font-size: 0.7rem;
     color:transparent;
     background:var(--gradient);
     -webkit-background-clip: text;
