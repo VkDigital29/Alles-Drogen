@@ -144,40 +144,6 @@ header{
   .diseases .content p{
     font-size: medium;
   }
-  .drugs{
-  display: flex;
-  flex-wrap: wrap;
-  gap:1.5rem;
-  align-items: center;
-}
-
-.drugs .content{
-  flex:1 1 40rem;
-}
-
-.drugs .image{
-  flex:1 1 40rem;
-}
-
-.drugs .image img{
-  width:100%;
-}
-
-.drugs .content h2,h4,h1{
-  color:transparent;
-  background:var(--gradient);
-  -webkit-background-clip: text;
-  background-clip: text;
-  font-size: 4rem;
-}
-.drugs .content a,li,p{
-  padding:.5rem 0;
-  font-size: 1.7rem;
-  color:transparent;
-  background:var(--gradient);
-  -webkit-background-clip: text;
-  background-clip: text;
-}
 .custom_alert{
  position:fixed;
  font-size:12px;
@@ -214,6 +180,18 @@ header{
  transform:translateX(-50%)}18%
  {-webkit-transform:translateX(-56%);
  transform:translateX(-56%)}}
+.back-to-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  border-radius: 100%;
+  background: #141c38;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  opacity: 100%;
+  transition: opacity 0.5s;
+}
   .alert{
 --bs-alert-bg:transparent;
   --bs-alert-padding-x:1rem;
@@ -308,8 +286,49 @@ header{
 .alert-dark .alert-link{
   color:#101214
 }
-
- 
+.drugs{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    align-items: center;
+  }
+  
+  .drugs .content{
+    flex:1 1 40rem;
+  }
+  
+  .drugs .image{
+    flex:1 1 40rem;
+  }
+  
+  .drugs .image img{
+    width:100%;
+  }
+  
+  .drugs .content h2 ,h4{
+    color:transparent;
+    background:var(--gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 4rem;
+  }
+  .drugs .content a,li{
+    padding:.5rem 0;
+    font-size: 1.7rem;
+    color:transparent;
+    background:var(--gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+  .drugs .content p{
+    font-size: medium;
+  }
+ .drugs .table{
+flex :1 1 40rem;
+}
+.drugs .table th{
+    color:grey;
+}
 
 
 
@@ -506,5 +525,4 @@ header{
     }
   
   } 
-  
   
