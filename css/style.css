@@ -286,7 +286,43 @@ header{
 .alert-dark .alert-link{
   color:#101214
 }
-
+.drugs{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    align-items: center;
+  }
+  
+  .drugs .content{
+    flex:1 1 40rem;
+  }
+  
+  .drugs .image{
+    flex:1 1 40rem;
+  }
+  
+  .drugs .image img{
+    width:100%;
+  }
+  
+  .drugs .content h2 ,h4{
+    color:transparent;
+    background:var(--gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 4rem;
+  }
+  .drugs .content a,li{
+    padding:.5rem 0;
+    font-size: 1.7rem;
+    color:transparent;
+    background:var(--gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+  .drugs .content p{
+    font-size: medium;
+  }
 
 
 
