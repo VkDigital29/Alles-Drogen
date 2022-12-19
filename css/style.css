@@ -323,12 +323,7 @@ header{
   .drugs .content p{
     font-size: medium;
   }
- .drugs .table{
-flex :1 1 40rem;
-}
-.drugs .table th{
-    color:grey;
-}
+ 
 
 
 
