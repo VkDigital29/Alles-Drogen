@@ -321,7 +321,7 @@ header{
     background-clip: text;
   }
   .drugs .content p{
-    font-size: medium;
+    font-size: 0.7rem;
   }
  .drugs .content .table{
     font-size: large;
