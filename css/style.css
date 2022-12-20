@@ -320,7 +320,7 @@ header{
     -webkit-background-clip: text;
     background-clip: text;
   }
-.drugs .content p{
+.drugs .content p,b{
  padding:.5rem 0;
   font-size: 2.5rem;
 }
