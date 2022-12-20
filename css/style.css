@@ -323,13 +323,24 @@ header{
   .drugs .content p{
     font-size: medium;
   }
- .drugs .table{
-flex :1 1 40rem;
-}
-.drugs .table th{
-    color:grey;
-}
-
+ .drugs .content .table{
+    font-size: large;
+    color: #252525;
+   }
+   .drugs .content .table th{
+    color:whitesmoke;
+    background-color:gray ;
+   }
+   .drugs .content .table td{
+    color:whitesmoke;
+   }
+   .drugs .content .table tr{
+    background-color: rgb(195, 101, 101) ;
+   }
+   .drugs .content .danger{
+    color: red;
+   }
+   
 
 
 
