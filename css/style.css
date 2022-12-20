@@ -312,16 +312,13 @@ header{
     background-clip: text;
     font-size: 2rem;
   }
-  .drugs .content a,li{
+  .drugs .content a,li,p{
     padding:.5rem 0;
-    font-size: 0.6rem;
+    font-size: 1.7rem;
     color:transparent;
     background:var(--gradient);
     -webkit-background-clip: text;
     background-clip: text;
-  }
-  .drugs .content p{
-    font-size:medium;
   }
  .drugs .content .table{
     font-size: large;
