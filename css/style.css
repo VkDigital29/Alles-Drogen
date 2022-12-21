@@ -37,16 +37,7 @@
   body{
     background:var(--gradient);
     padding:3rem 7%;
-  }
-  .body li{
-    padding:.5rem 0;
-    font-size: 1.7rem;
-    color:transparent;
-    background:var(--gradient);
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
-      
+  }    
   .body p{
     padding:.5rem 0;
     font-size: 1.7rem;
@@ -326,7 +317,7 @@ header{
   }
   .drugs .content a,li{
     padding:.5rem 0;
-    font-size: 0.6rem;
+    font-size: 2rem;
     color:transparent;
     background:var(--gradient);
     -webkit-background-clip: text;
