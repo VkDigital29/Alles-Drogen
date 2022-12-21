@@ -133,7 +133,7 @@ header{
     background-clip: text;
     font-size: 2rem;
   }
-  .diseases .content a,li{
+  .diseases .content a{
     padding:.5rem 0;
     font-size: 0.6rem;
     color:transparent;
