@@ -138,7 +138,7 @@ header{
   }
 .diseases .content a,li{
     padding:.5rem 0;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color:transparent;
     background:var(--gradient);
     -webkit-background-clip: text;
@@ -325,7 +325,7 @@ header{
   }
   .drugs .content a,li{
     padding:.5rem 0;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color:transparent;
     background:var(--gradient);
     -webkit-background-clip: text;
