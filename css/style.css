@@ -136,6 +136,14 @@ header{
   .diseases .content p{
     font-size: medium;
   }
+.diseases .content a,li{
+    padding:.5rem 0;
+    font-size: 2rem;
+    color:transparent;
+    background:var(--gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
   .diseases .content .Boxes{
     display:flex; 
    flex-wrap: wrap;
