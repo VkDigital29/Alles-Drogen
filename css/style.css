@@ -144,6 +144,17 @@ header{
   .diseases .content p{
     font-size: medium;
   }
+.diseases .content .Boxes{
+    display:flex; 
+   flex-wrap: wrap;
+   justify-content:space-between;
+   }
+   .diseases .content .box{
+   margin:17px;
+   width:50px;
+   height:40px;
+   background-color:gainsboro;
+   }
 .custom_alert{
  position:fixed;
  font-size:12px;
@@ -341,6 +352,18 @@ header{
    .drugs .content .danger{
     color: red;
    }
+   .drugs .content .Boxes{
+    display:flex; 
+   flex-wrap: wrap;
+   justify-content:space-between;
+   }
+   .drugs .content .box{
+   margin:17px;
+   width:50px;
+   height:40px;
+   background-color:gainsboro;
+   }
+
 
    
 
