@@ -57,6 +57,17 @@
   section{
     padding:2rem 7%;
   }
+  .heading{
+    color:transparent;
+    background:var(--gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    padding:0 1rem;
+    padding-top: 2.5rem;
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+  }
   .container{
     background:#fff;
     border-radius: .5rem;
