@@ -180,6 +180,9 @@ header{
    height:40px;
    background-color:gainsboro;
    }
+   .diseases .content .danger{
+    color: red;
+   }
    .about{
     display: flex;
     flex-wrap: wrap;
@@ -599,6 +602,10 @@ header{
   
   .footer .credit span{
     color:var(--pink);
+  }
+  .footer .box-container .box .pnbtn{
+    color: black;
+    width: 100px;
   }
   
   /* media queries  */
