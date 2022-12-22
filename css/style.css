@@ -136,13 +136,18 @@ header{
   .diseases .content p{
     font-size: medium;
   }
-.diseases .content a,li{
+.diseases .content li{
     padding:.5rem 0;
     font-size: 1.5rem;
     color:transparent;
     background:var(--gradient);
     -webkit-background-clip: text;
     background-clip: text;
+  }
+  .diseases .content a{
+    padding: .5rem 0;
+    font-size: 1.5rem;
+    color: blue;
   }
   .diseases .content .Boxes{
     display:flex; 
@@ -323,13 +328,18 @@ header{
     background-clip: text;
     font-size: 2rem;
   }
-  .drugs .content a,li{
+  .drugs .content li{
     padding:.5rem 0;
     font-size: 1.5rem;
     color:transparent;
     background:var(--gradient);
     -webkit-background-clip: text;
     background-clip: text;
+  }
+  .diseases .content a{
+    padding: .5rem 0;
+    font-size: 1.5rem;
+    color: blue;
   }
   .drugs .content p,b{
     font-size: medium;
