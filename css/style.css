@@ -139,11 +139,10 @@ header{
 .diseases .content a,li{
     padding:.5rem 0;
     font-size: 1.5rem;
-    color:transparent;
-    background:var(--gradient);
-    -webkit-background-clip: text;
-    background-clip: text;
   }
+.diseases .content a{
+color:blue;
+}
   .diseases .content .Boxes{
     display:flex; 
    flex-wrap: wrap;
@@ -326,11 +325,10 @@ header{
   .drugs .content a,li{
     padding:.5rem 0;
     font-size: 1.5rem;
-    color:transparent;
-    background:var(--gradient);
-    -webkit-background-clip: text;
-    background-clip: text;
   }
+.drugs .content a{
+color:blue;
+}
   .drugs .content p,b{
     font-size: medium;
   }
