@@ -11,26 +11,9 @@
     <link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
     <!--custom css link-->
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/search.css">
         <!--favicon link-->    
     <link rel="icon" type="icon" href="favicon/favicon48.ico">
-<script>
-function showResult(str) {
-  if (str.length==0) {
-    document.getElementById("livesearch").innerHTML="";
-    document.getElementById("livesearch").style.border="4px";
-    return;
-  }
-  var xmlhttp=new XMLHttpRequest();
-  xmlhttp.onreadystatechange=function() {
-    if (this.readyState==4 && this.status==200) {
-      document.getElementById("livesearch").innerHTML=this.responseText;
-      document.getElementById("livesearch").style.border="1px solid #252525";
-    }
-  }
-  xmlhttp.open("GET","livesearch.php?q="+str,true);
-  xmlhttp.send();
-}
-</script>
 </head>
 <body>
     <div class="container">
@@ -84,6 +67,7 @@ function showResult(str) {
 </section>
     </div>
 <script src="script/script.js"></script>
+<script src="script/search.js"></script>
 
 </body>
 </html>
