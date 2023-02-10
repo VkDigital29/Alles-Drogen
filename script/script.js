@@ -39,7 +39,14 @@ window.alert = (text = "", theme = "danger") => {
     }
   }, 2000);
 };
-
+//script for time display for right side
+		var interval = setInterval(function() {
+	        $('#date-part').html(moment().format("dddd, MMM DD YYYY, h:mm:ss A"));
+	        }, 100);
+	    
+	    $('#stop-interval').on('click', function() {
+	        clearInterval(interval);
+	    });
 
 
 
