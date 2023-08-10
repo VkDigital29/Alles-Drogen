@@ -21,7 +21,7 @@ async function fetchGraphQL(operationsDoc, operationName, variables) {
 
 const operationsDoc = `
   query Acetaminophen($distinct_on: [Search_select_column!] = Query, $where: Search_bool_exp = {}) {
-    Search(distinct_on: $distinct_on, where: $where) {
+    Search(where: $where, distinct_on: $distinct_on) {
       Query
     }
   }
