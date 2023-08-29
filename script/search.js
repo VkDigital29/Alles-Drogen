@@ -1,10 +1,7 @@
-/*
-This is an example snippet - you should consider tailoring it
-to your service.
-*/
+import fetch from "node-fetch";
 
-async function fetchGraphQL(operationsDoc, operationName, variables) {
-  const result = await fetch(
+function fetchGraphQL(operationsDoc, operationName, variables) {
+  return fetch(
     "undefined",
     {
       method: "POST",
@@ -14,37 +11,35 @@ async function fetchGraphQL(operationsDoc, operationName, variables) {
         operationName: operationName
       })
     }
-  );
-
-  return await result.json();
+  ).then((result) => result.json());
 }
 
 const operationsDoc = `
-  query Acetaminophen($distinct_on: [Search_select_column!] = Query, $where: Search_bool_exp = {}) {
-    Search(where: $where, distinct_on: $distinct_on) {
-      Query
+  query GetSearch {
+    Search(distinct_on: DrugsA) {
+      DrugsA
     }
   }
 `;
 
-function fetchAcetaminophen(distinct_on, where) {
+function fetchGetSearch() {
   return fetchGraphQL(
     operationsDoc,
-    "Acetaminophen",
-    {"distinct_on": distinct_on, "where": where}
+    "GetSearch",
+    {}
   );
 }
 
-async function startFetchAcetaminophen(distinct_on, where) {
-  const { errors, data } = await fetchAcetaminophen(distinct_on, where);
-
-  if (errors) {
-    // handle those errors like a pro
-    console.error(errors);
-  }
-
-  // do something great with this precious data
-  console.log(data);
-}
-
-startFetchAcetaminophen(distinct_on, where);
+fetchGetSearch()
+  .then(({ data, errors }) => {
+    if (errors) {
+      // handle those errors like a pro
+      console.error(errors);
+    }
+    // do something great with this precious data
+    console.log(data);
+  })
+  .catch((error) => {
+    // handle errors from fetch itself
+    console.error(error);
+  });
