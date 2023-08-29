@@ -1,8 +1,23 @@
 [
   {
-    "Query": "Acetaminophen"
+    "DrugsA": "Abilify"
   },
   {
-    "Query": "Paracetamol "
+    "DrugsA": "Abilify Maintaina"
+  },
+  {
+    "DrugsA": "Abiraterone"
+  },
+  {
+    "DrugsA": "Acetaminophen "
+  },
+  {
+    "DrugsA": "Acetylcysteine "
+  },
+  {
+    "DrugsA": "Actemra "
+  },
+  {
+    "DrugsA": "Actos "
   }
 ]
