@@ -14,6 +14,27 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/search.css">
 	<link rel="srcipt" type="json" href="app.json">
+	<style>.AppFormTable th {
+            border: 1px solid white;
+        }
+
+        .talkbubble {
+            position: relative;
+        }
+
+            .talkbubble:before {
+                content: "";
+                position: absolute;
+                left: 100%;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 0;
+                height: 0;
+                border-top: 10px solid transparent;
+                border-left: 12px solid #FC46AA;
+                border-bottom: 10px solid transparent;
+            }
+</style>
         <!--favicon link-->    
     <link rel="icon" type="icon" href="favicon/favicon48.ico">
 </head>
@@ -23,12 +44,6 @@
     <header>
         <a href="#" class="logo">Alles<span>Drogen</span></a>
 <div class="navbar-header">
-					<ul class="nav navbar-nav navbar-right">
-					           <li class='time-frame'><a><i class="fa fa-clock-o fa-1x"></i>
-								<span id='date-part' style="font-size: 15px;"></span> &nbsp;
-                                <span id='time-part'></span></a>
-                               </li>
-					</ul>
         <div id="menu" class="fas fa-bars"></div>
         <nav class="navbar">
             <a href="#">Home</a>
@@ -40,11 +55,17 @@
     </header>
     <img src="img/Logo.webp" width="100%" alt="logo">
     <h3>Welcome To Our Site!!</h3>
-    <p class="disclaimer">Disclaimer: This Site Is Developed For Informative Purpose Only.</p>
-	    <form action="https://dsnkjsatiymrmxqaokpq.hasura.ap-south-1.nhost.run/api/rest/search" method="get">
-		    <input type="text" Placeholder="Search...." autocomplete="off">
-		    <button>Search</button>
-	    </form>
+	    <div class="middle-content">
+                <table id="top3" style="width: 100%; padding: 0 3px; font-size: 13px; font-family: Verdana; border-collapse: collapse; border-width: 0 0 1px 0;">
+                    <tr>
+                        <td class="talkbubble" style="width: 100px; padding: 4px; height: 20px; background-color: #FC46AA; border: 1px solid #FC46AA; text-align: center; color: White; font-weight: bold;">IMP NOTE </td>
+                        <td style="background-color: rgba(246, 34, 63, 0.05); border: 1px solid #f3a8b3; padding: 5px 0 5px 10px; color: Black;">
+                            <div class="important-text">
+                                <marquee id="rightContainer_ContentTable2_scrollerb" direction="alternate" scrollamount="2" scrolldelay="20" style="padding-left: 30px;" onmouseover="javascript:this.stop();" onmouseout="javascript:this.start();"> <span style="margin-right: 100px;"><big>This Site Is Developed For Informative Purpose Only.</big> <img src="https://vkdigital29.github.io/B.pharmacy/img/new.gif"  style="margin-right:4px;"/><img src="https://vkdigital29.github.io/B.pharmacy/img/large-dia7.gif"  style="margin-right:4px;"/></span><span><big key=D2323>Further Coming Soon</big> <img src="img/new.gif"  style="margin-right:4px;"/><img src="img/large-dia7.gif"  style="margin-right:4px;"/></span></marquee>     
+                           </div>
+                        </td>
+                    </tr>
+                </table>
 <!--footer section-->
 <section class="footer">
 
