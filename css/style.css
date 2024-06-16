@@ -391,17 +391,16 @@ header{
   }
    .drugs .content .table{
     font-size: medium;
-    color: #252525;
+    border:2px solid black;
    }
    .drugs .content .table th{
-    color:whitesmoke;
-    background-color:gray ;
+    border:2px solid black;
    }
    .drugs .content .table td{
-    color:whitesmoke;
+    border:2px solid black;
    }
    .drugs .content .table tr{
-    background-color: rgb(195, 101, 101) ;
+    border:2px solid black;
    }
    .drugs .content .danger{
     color: red;
