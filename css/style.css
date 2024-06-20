@@ -2,7 +2,6 @@
   *{
     font-family: 'Playfair Display';
     margin:0; padding:0;
-    box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
     text-transform: capitalize;
@@ -25,10 +24,7 @@
     background:#fff;
     border-radius: 5rem;
   }
-  
-  body{
-    padding:3rem 7%;
-  }    
+   
   .body p{
     padding:.5rem 0;
     font-size: 1.7rem;
@@ -41,10 +37,6 @@
     -webkit-background-clip: text;
     background-clip: text;
     font-size: 4rem;
-  }
-  
-  section{
-    padding:2rem 7%;
   }
   .heading{
     color:black;
