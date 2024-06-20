@@ -1,7 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Lato%3A400%2C700%7CPlayfair%20Display%3A400%2C700&display=swap);
+
+
+:root{
+    --violet:#6c5ce7;
+    --pink:#FC427B;
+    --gradient:linear-gradient(90deg, var(--violet), var(--pink));
+  }
+  
   *{
     font-family: 'Playfair Display';
     margin:0; padding:0;
+    box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
     text-transform: capitalize;
@@ -24,22 +33,33 @@
     background:#fff;
     border-radius: 5rem;
   }
-   
+  
+  body{
+    background:var(--gradient);
+    padding:3rem 7%;
+  }    
   .body p{
     padding:.5rem 0;
     font-size: 1.7rem;
-    color:black;
+    color:transparent;
+    background:var(--gradient);
     -webkit-background-clip: text;
     background-clip: text;
   }
   .body h1,h3{
-    color:black;
+    color:transparent;
+    background:var(--gradient);
     -webkit-background-clip: text;
     background-clip: text;
     font-size: 4rem;
   }
+  
+  section{
+    padding:2rem 7%;
+  }
   .heading{
-    color:black;
+    color:transparent;
+    background:var(--gradient);
     -webkit-background-clip: text;
     background-clip: text;
     padding:0 1rem;
@@ -50,6 +70,8 @@
   }
   .container{
     background:#fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
   }
   .btn{
     display: inline-block;
