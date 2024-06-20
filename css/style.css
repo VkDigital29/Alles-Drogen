@@ -1,12 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Lato%3A400%2C700%7CPlayfair%20Display%3A400%2C700&display=swap);
-
-
-:root{
-    --violet:#6c5ce7;
-    --pink:#FC427B;
-    --gradient:linear-gradient(90deg, var(--violet), var(--pink));
-  }
-  
   *{
     font-family: 'Playfair Display';
     margin:0; padding:0;
@@ -35,20 +27,17 @@
   }
   
   body{
-    background:var(--gradient);
     padding:3rem 7%;
   }    
   .body p{
     padding:.5rem 0;
     font-size: 1.7rem;
-    color:transparent;
-    background:var(--gradient);
+    color:black;
     -webkit-background-clip: text;
     background-clip: text;
   }
   .body h1,h3{
-    color:transparent;
-    background:var(--gradient);
+    color:black;
     -webkit-background-clip: text;
     background-clip: text;
     font-size: 4rem;
@@ -58,8 +47,7 @@
     padding:2rem 7%;
   }
   .heading{
-    color:transparent;
-    background:var(--gradient);
+    color:black;
     -webkit-background-clip: text;
     background-clip: text;
     padding:0 1rem;
